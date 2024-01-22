@@ -1,0 +1,19 @@
+/* Footer Styling */
+.site-footer {
+  background-color: #ffffff; /* Same as navbar */
+  color: #534b4f; /* Text color similar to navbar links */
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #e0e0e0; /* Elegant separation line */
+}
+
+.site-footer .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer-text {
+  margin: 0;
+  font-family: 'Times New Roman', serif;
+  font-size: 16px;
+}

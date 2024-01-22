@@ -1,0 +1,70 @@
+.edit-article-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submit-btn {
+  background-color: #4b2c04;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #169a32;
+}
+/* Style for the buttons */
+.delete-btn, .update-btn {
+  background-color: #ff6b6b; /* Example color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin:  5px; /* Space between buttons */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #ff4c4c; /* Darker shade for hover */
+}
+
+.update-btn {
+  background-color: #ad6161; /* Different color for update button */
+}
+
+.update-btn:hover {
+  background-color: #e89f9f; /* Darker shade for hover */
+}
+.form-container {
+  /* Add your desired styles, for example: */
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* optional, for a shadow effect */
+}
